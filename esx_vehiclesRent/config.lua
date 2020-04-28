@@ -1,17 +1,17 @@
 Config = {}
 
-Config.PlateText = '000000' -- 🚔 rented car number 🚔
+Config.PlateText = '000000' -- rented car number
 
-Config.MaxNoJob = 1 -- 🚜 maximum number of cars for rent without work 🚜
-Config.MaxJob = 3 -- 🛸 maximum number of cars that can be rented while having a job 🛸
+Config.MaxNoJob = 1 -- maximum number of cars for rent without work
+Config.MaxJob = 3 -- maximum number of cars that can be rented while having a job
 
-Config.DistanseSpawn = 50.0 -- 🗺 the distance at which the car will spawn 🗺
-Config.DistanseLock = 5.0 -- 🔒 the distance at which the car will be closed 🔒
+Config.DistanseSpawn = 50.0 -- the distance at which the car will spawn
+Config.DistanseLock = 5.0 -- the distance at which the car will be closed
 
-Config.CarLock = true -- 🔐 If "true" the rented car can be closed and opened 🔐
+Config.CarLock = true -- If "true" the rented car can be closed and opened
 
 Config.VehiclePositions = {            
-   -- Example: 🛵 Free car rental 🛵
+   -- Example: Free car rental
 	{x = -1010.71, y = -2696.58, z = 13.00, h = 81.69, model = 'faggio', price = false, job = 'none'},
 	{x = -1010.06, y = -2694.96, z = 13.00, h = 84.48, model = 'faggio', price = false, job = 'none'},
 	{x = -1009.44, y = -2693.55, z = 13.00, h = 76.99, model = 'faggio2', price = false, job = 'none'},
@@ -33,7 +33,7 @@ Config.VehiclePositions = {
 	{x = -1012.58, y = -2677.08, z = 13.00, h = 226.39, model = 'tribike3', price = false, job = 'none'},
 	
 	
-  -- Example: 🚕 rent a car only for taxi drivers 🚕
+  -- Example: rent a car only for taxi drivers
    {x = 915.91, y = -170.71, z = 73.39, h = 99.52, model = 'taxi', price = false, job = 'taxi'},
    {x = 918.04, y = -167.28, z = 73.63, h = 99.52, model = 'taxi', price = false, job = 'taxi'},
    {x = 920.27, y = -163.68, z = 73.82, h = 99.52, model = 'taxi', price = false, job = 'taxi'},
@@ -48,7 +48,7 @@ Config.VehiclePositions = {
    {x = 899.22, y = -180.53, z = 72.80, h = 239.05, model = 'taxi', price = false, job = 'taxi'},
 
 
-  -- Example: 🚙 rent a car for money 🚙
+  -- Example: 🚙 rent a car for money
    {x = -238.48, y = 6196.10, z = 30.48, h = 134.24, model = 'voodoo2', price = 3, job = 'none'},
    {x = -240.77, y = 6199.06, z = 30.48, h = 134.24, model = 'glendale', price = 6, job = 'none'},
    {x = -235.99, y = 6193.85, z = 30.48, h = 134.24, model = 'impaler', price = 6, job = 'none'},
@@ -59,17 +59,17 @@ Config.VehiclePositions = {
 
 }	
 
- --/ ☢️ Information ☢️ /--
+ --/ Information /--
 -- x, y, z, h -> vehicle coordinates
 -- model -> Car model
 -- price -> Price per minute car rental (if "false" then rent is free)
 -- job -> The name of the fraction only she can rent a transport(If "none" then everyone can rent a transpo)
 
---/ 🤕 Not a bug but a feature 🤕 /--
+--/ Not a bug but a feature /--
 -- When a player gets in a car that he has not rented for others,
 -- he disappears, if this is removed, the player will endlessly fall
 -- under the map for others, although for himself everything will be in order.
 
---/ 😁 There are no bugs 😁 /-- 
+--/ There are no bugs /-- 
 -- Sometimes the rented car stops opening and closing, as I understand what
 -- the problem will be fixed (but this is not accurate)

@@ -48,7 +48,7 @@ Config.VehiclePositions = {
    {x = 899.22, y = -180.53, z = 72.80, h = 239.05, model = 'taxi', price = false, job = 'taxi'},
 
 
-  -- Example: 🚙 rent a car for money
+  -- Example: rent a car for money
    {x = -238.48, y = 6196.10, z = 30.48, h = 134.24, model = 'voodoo2', price = 3, job = 'none'},
    {x = -240.77, y = 6199.06, z = 30.48, h = 134.24, model = 'glendale', price = 6, job = 'none'},
    {x = -235.99, y = 6193.85, z = 30.48, h = 134.24, model = 'impaler', price = 6, job = 'none'},
